@@ -4,7 +4,7 @@ import { BsSearch } from "react-icons/bs";
 const SearchInput = () => {
   return (
     <InputGroup>
-      <InputLeftElement children={<BsSearch />} /> // 
+      <InputLeftElement children={<BsSearch />} /> {/* Magnifying Glass icon */}
       <Input borderRadius={20} placeholder="Search games..." variant="filled" />
     </InputGroup>
   );
